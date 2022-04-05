@@ -4,25 +4,19 @@ import java.util.Arrays;
 public class Count_Num {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int[] arr = new int[3];
-		int[] arr_result = new int [10];
-		int value = 0;
+		int[] arr = new int [10];
+		int value = (sc.nextInt() * sc.nextInt() * sc.nextInt());
 		int n;
-		Arrays.fill(arr_result, 0);
+		sc.close();
 		
-		for(int i = 0 ; i < 3 ; i++) {
-			arr[i] = sc.nextInt();
-			value += arr[i];
-		}
 		
 		while(value > 0) {
 			n = value % 10;
-			arr_result[n]++;
+			arr[n]++;
 			value = value / 10;
 		}
 		
 		for(int i = 0 ; i < 10 ; i++)
-			System.out.println(arr_result[i]);
-		sc.close();
+			System.out.println(arr[i]);
 	}
 }
