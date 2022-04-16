@@ -1,6 +1,6 @@
 import java.util.*;
 	
-public class Prime_number {
+public class Finding_Prime_number {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
