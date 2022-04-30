@@ -21,5 +21,6 @@ public class MinHeap {
                 pq.offer(cmd);
         }
         System.out.println(sb);
+        sc.close();
     }
 }
