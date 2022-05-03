@@ -28,7 +28,7 @@ public class Check_Point {
 				System.out.print(i + " ");
 			}
 		}
-		
+		sc.close();		
 	}
 	
 	static int gcd(int a, int b) {
