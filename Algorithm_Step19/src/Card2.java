@@ -22,7 +22,7 @@ public class Card2 {
 			q.poll();
 			q.offer(q.poll());
 		}
-		
+		sc.close();
 		System.out.println(q.poll());
 	}
 }
