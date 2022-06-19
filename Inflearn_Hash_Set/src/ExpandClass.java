@@ -27,5 +27,6 @@ class ExpandClass {
 		int n=sc.nextInt();
 		String str=sc.next();
 		System.out.println(T.solution(n, str));
+		sc.close();
 	}
 }
