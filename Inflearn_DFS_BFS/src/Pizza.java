@@ -50,5 +50,5 @@ class Pizza {
 		P.DFS(0, 0);
 		System.out.println(answer);
 		sc.close();
-	}
+	}		
 }
