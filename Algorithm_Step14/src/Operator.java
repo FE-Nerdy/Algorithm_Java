@@ -53,5 +53,5 @@ public class Operator {
 				operator[i]++;
 			}
 		}
-	}
+	}	
 }
