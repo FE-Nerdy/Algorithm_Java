@@ -24,7 +24,7 @@ public class ContinuousSum {
 		recur(N - 1);
 		
 		System.out.println(max);
-		sc.close();
+		sc.close();	
 		}
 	
 	static int recur(int N) {
